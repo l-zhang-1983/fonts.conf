@@ -1,5 +1,22 @@
 <?xml version="1.0"?>
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<!--
+	本配置文件需要使用如下字体
+	[中]	Hiragino San GB W3
+	[中]	Adobe Kaiti Std
+	[中]	Source Han Serif CN
+	[英]	Noto Sans
+	[英]	Noto Serif
+	[英]	Roboto Mono
+	[英]	Linux Libertine <-- 为解决时钟冒号字符过宽问题
+	
+	mozilla firefox
+	字体渲染效果正常 黑体 宋体 楷体以及与Sans Serif和Monospace的搭配显示均正常
+	
+	google chrome
+	1. 无法正确识别Sans Serif或Monospace中的中文字体并合理搭配 只能显示黑体
+	2. 无论css如何指定font-family 字体都会无原因fallback到Hiragino Sans GB W3并使用其中的英文字符 宽度过大而丑陋
+-->
 <fontconfig>
 	<dir>/opt/fonts</dir>
 	<dir>/usr/share/fonts</dir>
