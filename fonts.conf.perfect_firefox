@@ -8,7 +8,7 @@
 	[英]	Noto Sans
 	[英]	Noto Serif
 	[英]	Roboto Mono
-	[英]	Linux Libertine <-- 为解决时钟冒号字符过宽问题
+	[英]	Linux Libertine <== 为解决时钟冒号字符过宽问题
 	
 	mozilla firefox
 	字体渲染效果正常 黑体 宋体 楷体以及与Sans Serif和Monospace的搭配显示均正常
