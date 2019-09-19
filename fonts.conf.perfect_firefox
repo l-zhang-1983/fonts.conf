@@ -564,6 +564,7 @@
 		<prefer>
 			<!-- Liang -->
 			<family>Noto Sans</family>
+			<family>Linux Libertine</family>
 			<family>Bitstream Vera Sans</family>
 			<!--
 			<family>Hiragino Sans GB W3</family>
